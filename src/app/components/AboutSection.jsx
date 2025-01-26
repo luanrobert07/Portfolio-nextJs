@@ -17,9 +17,6 @@ const TAB_DATA = [
         <li>React Native</li>
         <li>Python</li>
         <li>HTML and CSS</li>
-        
-
-
       </ul>
     ),
   },
@@ -28,14 +25,23 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        {/* <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li> */}
+        <li>Software Engineer - Inatel University of Brazil, Minas Gerais</li>
       </ul>
     ),
   },
   {
     title: "Certifications",
     id: "certifications",
+    content: (
+      <ul className="list-disc pl-2">
+        {/* <li>AWS Cloud Practitioner</li>
+        <li>Google Professional Cloud Developer</li> */}
+      </ul>
+    ),
+  },
+  {
+    title: "Experiences",
+    id: "experiences",
     content: (
       <ul className="list-disc pl-2">
         {/* <li>AWS Cloud Practitioner</li>
@@ -90,6 +96,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("experiences")}
+              active={tab === "experiences"}
+            >
+              {" "}
+              Experiences{" "}
             </TabButton>
           </div>
           <div className="mt-8">
