@@ -24,9 +24,11 @@ const HeroSection = () => {
               sequence={[
                 "Luan Robert",
                 1000,
-                "Full Stack Developer",
+                "Developer",
                 1000,
-                "Mobile Developer",
+                "Web Full Stack",
+                1000,
+                "Mobile",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -65,15 +67,17 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden shadow-xl shadow-black/50">
             <Image
-              src="/images/hero-image.png"
+              src="/images/perfil.jpeg"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
+              className="absolute w-full h-full object-cover"
+              width={400}
+              height={400}
             />
           </div>
+
+
         </motion.div>
       </div>
     </section>
