@@ -8,16 +8,54 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React</li>
-        <li>React Native</li>
-        <li>Python</li>
-        <li>HTML and CSS</li>
-      </ul>
+     <ul className="list-disc pl-2">
+  <li><strong>Frontend Development</strong>
+    <ul>
+      <li>React</li>
+      <li>React Native</li>
+      <li>NextJs</li>
+      <li>HTML and CSS</li>
+      <li>Figma for UI/UX</li>
+    </ul>
+  </li>
+
+  <li><strong>Backend Development</strong>
+    <ul>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>Java</li>
+      <li>TypeScript</li>
+      <li>Python</li>
+      <li>C, C++, C#</li>
+    </ul>
+  </li>
+
+  <li><strong>Databases</strong>
+    <ul>
+      <li>Relational Databases</li>
+      <li>NoSQL Databases</li>
+      <li>Prisma</li>
+    </ul>
+  </li>
+
+  <li><strong>DevOps & Tools</strong>
+    <ul>
+      <li>Docker and CI/CD</li>
+      <li>Tests</li>
+      <li>Design Patterns</li>
+    </ul>
+  </li>
+
+  <li><strong>Data Science & AI</strong>
+    <ul>
+      <li>Data Science</li>
+      <li>Machine Learning</li>
+      <li>Deep Learning</li>
+      <li>TensorFlow</li>
+    </ul>
+  </li>
+</ul>
+
     ),
   },
   {
@@ -68,12 +106,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a Full Stack Web Developer with a passion for creating 
+            responsive and interactive web applications. With experience 
+            in both frontend and backend development, I am skilled in using 
+            technologies like React, Node.js, TypeScript, and Python. I 
+            am a quick learner, always seeking to expand my knowledge and stay 
+            updated with industry trends.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
