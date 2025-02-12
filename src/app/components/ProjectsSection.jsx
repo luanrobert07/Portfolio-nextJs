@@ -6,14 +6,62 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
-    title: "Bullvest",
-    description: "This is a mobile application with react native and nodeJs about investment",
-    image: "/images/projects/1.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+    "id": 1,
+    "title": "Bullvest",
+    "description": "This is a mobile application with React Native and Node.js about investment.",
+    "image": "/images/projects/1.png",
+    "tag": ["All", "Mobile"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+},
+{
+    "id": 2,
+    "title": "To-do list",
+    "description": "A simple and efficient to-do list application built with React Native and Node.js to help users organize their daily tasks.",
+    "image": "/images/projects/2.png",
+    "tag": ["All", "Mobile"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+},
+{
+    "id": 3,
+    "title": "GymPass App",
+    "description": "A web platform developed with React and Node.js to manage gym memberships, bookings, and workouts.",
+    "image": "/images/projects/3.png",
+    "tag": ["All", "Web"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+},
+{
+    "id": 4,
+    "title": "Mountain Events",
+    "description": "A web application for discovering and managing outdoor events, built with React and Node.js.",
+    "image": "/images/projects/4.png",
+    "tag": ["All", "Web"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+},
+{
+    "id": 5,
+    "title": "Gym plus plus",
+    "description": "A mobile fitness application developed with React Native and Node.js to help users track workouts, progress, and nutrition.",
+    "image": "/images/projects/5.png",
+    "tag": ["All", "Mobile"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+},
+{
+    "id": 6,
+    "title": "Maternar App",
+    "description": "A mobile application designed to provide guidance and support for mothers during pregnancy and early childhood, built with React Native and Node.js.",
+    "image": "/images/projects/6.png",
+    "tag": ["All", "Mobile"],
+    "gitUrl": "/",
+    "previewUrl": "/"
+}
+
+  
+
 ];
 
 const ProjectsSection = () => {
