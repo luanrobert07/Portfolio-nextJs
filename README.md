@@ -9,11 +9,11 @@
 
 ## 💻 Sobre o projeto
 
-♻️ Portfólio - é uma aplicação mostrando minhas skils, projetos e contato
+♻️ Portfólio - é uma aplicação mostrando minhas skills, projetos e contato
 
 ## ⚙️ Funcionalidades
 
-- [ ] Página de conatato
+- [ ] Página de contato
 - [ ] Página com projetos
 - [ ] Páginas com informações sobre minha jornada
 
