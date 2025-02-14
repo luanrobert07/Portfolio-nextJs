@@ -1,30 +1,49 @@
-# Portfolio Website
+<h1 align="center">
+    Portfólio
+</h1>
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+<h4 align="center"> 
+	🚧  Portfólio ♻️ Concluído 🚀 🚧
+</h4>
 
-## Installation
 
-1. Clone the repository: `git clone ...`
-2. Navigate to the project directory: `cd nextjs-portfolio-main`
-3. Install the dependencies: `npm install`
+## 💻 Sobre o projeto
 
-## Usage
+♻️ Portfólio - é uma aplicação mostrando minhas skils, projetos e contato
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+## ⚙️ Funcionalidades
 
-## Dependencies
+- [ ] Página de conatato
+- [ ] Página com projetos
+- [ ] Páginas com informações sobre minha jornada
 
-The following dependencies are required for this project:
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+---
 
-## License
+## 🚀 Como executar o projeto
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/luanrobert07/portfolio-nexjs.git
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm run dev
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **NextJS**
+#### **React**
+#### **JavaScript**
+
+
 
