@@ -11,20 +11,20 @@ const TAB_DATA = [
      <ul className="list-disc pl-2">
   <li><strong>Frontend Development</strong>
     <ul>
-      <li>React - React Native - NextJs - HTML and CSS - JavaScript</li>
-      <li>Figma for UI/UX</li>
+      <li>React - React Native - NextJs - HTML e CSS - JavaScript</li>
+      <li>Figma para UI/UX</li>
     </ul>
   </li>
 
   <li><strong>Backend Development</strong>
     <ul>
-      <li>Node.js - Express -Java - TypeScript - Python - C, C++ and C#</li>
+      <li>Node.js - Express - NestJS - Fastify - Java - TypeScript - Python - C, C++ e C#</li>
     </ul>
   </li>
 
   <li><strong>Databases</strong>
     <ul>
-      <li>Relational Databases - NoSQL Databases</li>
+      <li>PostgreSQL - MongoDB - MySQL</li>
       <li>Prisma</li>
     </ul>
   </li>
@@ -52,8 +52,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Software Engineer - Inatel University of Brazil, Minas Gerais</li>
-        <li>Rocketseat courses</li>
+        <li>Engenharia de Software - Inatel</li>
+        <li>Intercâmbio Acadêmico - Jade University of Applied Sciences</li>
       </ul>
     ),
   },
@@ -62,7 +62,11 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Rocketseat course</li>
+        <li>React - Rocktseat</li>
+        <li>FullStack - Rocktseat</li>
+        <li>NextJS - Rocktseat</li>
+        <li>NodeJS - Rocktseat</li>
+        <li>Desenvolvimento Web - Udemy</li>
       </ul>
     ),
   },
@@ -97,12 +101,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Full Stack Web Developer with a passion for creating 
-            responsive and interactive web applications. With experience 
-            in both frontend and backend development, I am skilled in using 
-            technologies like React, Node.js, TypeScript, and Python. I 
-            am a quick learner, always seeking to expand my knowledge and stay 
-            updated with industry trends.
+          Sou Desenvolvedor Web Full Stack com paixão por criar aplicações web responsivas e interativas. Tenho experiência tanto no desenvolvimento frontend quanto backend, utilizando tecnologias como React, Node.js, TypeScript e Python. Sou um aprendiz rápido, sempre buscando expandir meu conhecimento e me manter atualizado com as tendências do setor.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

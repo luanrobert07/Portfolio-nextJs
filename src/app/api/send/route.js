@@ -6,9 +6,6 @@ const fromEmail = process.env.FROM_EMAIL;
 
 export async function POST(req) {
   try {
-    // 🛠️ Debug: Verifique se as variáveis de ambiente estão definidas
-    console.log("RESEND_API_KEY:", process.env.RESEND_API_KEY ? "OK" : "NOT SET");
-    console.log("FROM_EMAIL:", process.env.FROM_EMAIL);
 
     const { email, subject, message } = await req.json();
     

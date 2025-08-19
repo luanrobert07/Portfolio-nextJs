@@ -17,20 +17,16 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-900 to-secondary-200">
-              Hello, I&apos;m{" "}
+              Hello, eu sou Luan Robert
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Luan Robert",
-                1000,
-                "Developer",
+                "Desenvolvedor",
                 1000,
                 "Web Full Stack",
                 1000,
                 "Mobile",
-                1000,
-                "UI/UX Designer",
                 1000,
                 "Data Science",
                 1000,
@@ -41,13 +37,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I&apos;m a technology enthusiast with a solid background in software development 
-          and a solution-focused approach. Throughout my journey, I&apos;ve continuously 
-          sought to expand my technical and leadership skills by tackling challenging 
-          projects, engaging in ongoing studies, and collaborating on various teams and 
-          projects. I&apos;m committed to improvement, always seeking new opportunities 
-          to learn and grow. I&apos;m open to connections and partnerships that can add 
-          value and drive mutual success.
+          Sou graduando em Engenharia de Software no Inatel no 9° período, no qual venho desenvolvendo sólidos conhecimentos em desenvolvimento de software, metodologias ágeis, análise de dados e inteligência artificial. Durante a graduação, participei ativamente da empresa júnior, colaborando em projetos reais que me permitiram aplicar teoria na prática e aprimorar habilidades técnicas e interpessoais.
+          Ao iniciar minha trajetória profissional, atuei em projetos nas áreas de desenvolvimento front-end e back-end, com foco em tecnologias como JavaScript, ReactJS, NodeJs, Python e metodologias ágeis. Além disso, adquiri experiência em telecomunicações, colaborando com equipes de campo e trabalhando com configuração de redes 2G, 3G, 4G e 5G. Essas vivências ampliaram meu repertório técnico e me prepararam para os desafios do mercado de tecnologia.
+          Recentemente, realizei um intercâmbio na Alemanha, onde tive a oportunidade de aprender alemão,aprimorar meu inglês, vivenciar novas culturas e expandir minha visão global. Essa experiência intercultural fortaleceu minha capacidade de colaboração e adaptabilidade, habilidades essenciais para um profissional na área de tecnologia hoje.
+          Busco atuar nas áreas de desenvolvimento de software, com foco em projetos que integrem tecnologia e experiência do usuário, alinhando meu crescimento profissional com aprendizado contínuo e colaboração.
           </p>
           <div>
             <Link
@@ -57,7 +50,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1tSfFPonSpoEqoMtGSY8kEx93nxoDJSLa/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1Zy9KSoQzVAqnVS1s21q3X28q73gbY6Bw/view?usp=drive_link"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-900 to-secondary-200 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
